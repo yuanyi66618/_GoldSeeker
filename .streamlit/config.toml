@@ -1,0 +1,13 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+port = 8506
+address = "0.0.0.0"
+
+[theme]
+primaryColor = "#FF6B6B"
+backgroundColor = "#1E3C72"
+secondaryBackgroundColor = "#2A5298"
+textColor = "#FFFFFF"
+font = "sans serif"

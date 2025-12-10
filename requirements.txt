@@ -1,0 +1,99 @@
+# Gold-Seeker 地球化学找矿预测平台依赖包
+
+# 核心依赖
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 地理空间数据处理
+geopandas>=0.10.0
+rasterio>=1.2.0
+shapely>=1.8.0
+pyproj>=3.2.0
+fiona>=1.8.0
+
+# 空间统计分析
+pysal>=2.2.0
+libpysal>=4.5.0
+esda>=2.4.0
+splot>=1.1.0
+
+# 机器学习与AI
+langchain>=0.0.200
+langchain-openai>=0.0.2
+openai>=1.0.0
+tiktoken>=0.3.0
+
+# 数据可视化
+plotly>=5.0.0
+bokeh>=2.4.0
+folium>=0.12.0
+
+# Streamlit前端
+streamlit>=1.28.0
+streamlit-folium>=0.17.0
+
+# 统计分析
+statsmodels>=0.13.0
+pingouin>=0.5.0
+
+# 图像处理
+pillow>=8.3.0
+opencv-python>=4.5.0
+
+# 数据处理与优化
+numba>=0.56.0
+joblib>=1.1.0
+tqdm>=4.62.0
+
+# 配置与日志
+pyyaml>=6.0
+python-dotenv>=0.19.0
+loguru>=0.6.0
+
+# 测试框架
+pytest>=6.2.0
+pytest-cov>=3.0.0
+pytest-mock>=3.6.0
+
+# 开发工具
+black>=21.0.0
+flake8>=4.0.0
+mypy>=0.910
+isort>=5.9.0
+
+# 文档生成
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+myst-parser>=0.15.0
+
+# Jupyter支持
+jupyter>=1.0.0
+jupyterlab>=3.2.0
+ipywidgets>=7.6.0
+
+# 可选依赖（用于特定功能）
+# 高性能计算
+# cupy>=9.0.0  # GPU加速（需要CUDA）
+# dask>=2021.10.0  # 分布式计算
+
+# 高级统计
+# pymc3>=3.11.0  # 贝叶斯统计
+# arviz>=0.11.0  # 贝叶斯可视化
+
+# 数据库支持
+# sqlalchemy>=1.4.0  # 数据库ORM
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymongo>=3.12.0  # MongoDB
+
+# Web框架（用于API服务）
+# fastapi>=0.70.0  # API框架
+# uvicorn>=0.15.0  # ASGI服务器
+# streamlit>=1.0.0  # Web应用框架
+
+# GraphRAG集成
+neo4j>=5.12.0
+networkx>=3.1.0
